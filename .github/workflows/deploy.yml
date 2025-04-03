@@ -1,0 +1,7 @@
+name: Github Actions 실행시켜보기
+
+# 들여쓰기 중요 푸쉬가 될 떄마다 즉 메인 브랜치에 푸쉬 할 떄마다 이러한 작업을 해줘 메인이 아니라면 실행 시키지마
+on:
+  push:
+    branches:
+      - main
